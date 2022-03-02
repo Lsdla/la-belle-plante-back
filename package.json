@@ -1,0 +1,25 @@
+{
+  "name": "la-belle-plante-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server db/data.json",
+    "heroku-postbuild": "ng build --configuration=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lsdla/la-belle-plante-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lsdla/la-belle-plante-back/issues"
+  },
+  "homepage": "https://github.com/Lsdla/la-belle-plante-back#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
